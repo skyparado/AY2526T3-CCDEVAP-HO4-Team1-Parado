@@ -1,0 +1,61 @@
+body {
+  background-color: #f4f4f5;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #3f3f46;
+}
+
+.dashboard-title {
+  font-weight: 800;
+  font-size: 2.4rem;
+  color: #27272a;
+  margin-bottom: 0.25rem;
+}
+
+.dashboard-subtitle {
+  font-size: 1rem;
+  color: #71717a;
+  margin-bottom: 0;
+}
+
+.dashboard-subtitle span {
+  color: #52525b;
+}
+
+.chart-card {
+  border: none;
+  border-radius: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.chart-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.chart-card .card-body {
+  padding: 1.5rem;
+}
+
+.chart-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: #27272a;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .dashboard-title {
+    font-size: 2rem;
+  }
+  .chart-wrapper {
+    height: 280px;
+  }
+}
